@@ -1,0 +1,18 @@
+.lijst {
+    padding-left: 20px;
+}
+
+.lijst li {
+    list-style: none;
+    background-image: url("../images/vakje.png");
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: left center;
+    padding-left: 25px;
+}
+
+.lijst .aangevinkt {
+    background-image: url("../images/vinkje.png");
+    background-size: 17px;
+    margin-left: 1px;
+}
