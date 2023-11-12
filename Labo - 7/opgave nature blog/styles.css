@@ -9,7 +9,7 @@ body{
 }
 
 .page-header{
-    background-image: url("../images/header.jpg");
+    background-image: url("header.jpg");
     background-repeat: no-repeat;
     margin-top: 5px;
     padding: 3px 0 50px 10px;
