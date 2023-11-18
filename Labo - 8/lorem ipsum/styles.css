@@ -1,0 +1,12 @@
+section{
+    width: 49.5%;
+    border-width: 1px;
+    border-style: solid;
+    padding: 10px;
+    box-sizing: border-box;
+    float:left;
+}
+
+.section2{
+    margin-left: 10px;
+}

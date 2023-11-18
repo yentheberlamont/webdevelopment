@@ -1,0 +1,38 @@
+#container{
+    width:95%;
+    font-size: 1.2em;
+    font-family: Verdana,helvetica,Arial;
+}
+
+h1, h2{
+    color: #007;
+}
+
+h1{
+    font-size: 150%;
+}
+
+h2{
+    font-size: 130%;
+}
+
+.weeklySpecials h1{
+    color: deepskyblue;
+}
+
+.weeklySpecials h2{
+    color: red;
+}
+
+footer{
+    font-size: 0.5em;
+}
+
+.linkWeeklySpecials:hover{
+    background-color: brown;
+}
+
+.weeklySpecials p{
+    padding: 50px;
+}
+
