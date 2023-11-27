@@ -1,15 +1,21 @@
-#container{
-    font-size: 1.25em
-}
-
-img{
-    padding: 10px;
+body {
+    font-size: 1.25em;
+    font-family: Arial, sans-serif;
 }
 
 article{
-    margin-bottom: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 0 10px 10px 10px;
     border: black solid 1px;
     padding: 10px;
+    overflow: auto;
+}
+
+article:nth-last-of-type(even) img{
+    float: left;
+    margin-right: 10px;
+}
+
+article:nth-last-of-type(odd) img{
+    float: right;
+    margin-left: 10px;
 }
