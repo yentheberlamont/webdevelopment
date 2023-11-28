@@ -1,5 +1,54 @@
 body{
     width: 95%;
-    margin-left: auto;
+    margin: auto;
     font-family: Arial, helvetica, sans-serif;
+}
+
+header{
+    height: 200px;
+    background-image: url("../images/bgsky3.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    margin-top: 8px;
+}
+
+header p{
+    text-align: center;
+    color: darkblue;
+    font-weight: bold;
+    font-size: 240%;
+}
+
+header p:first-of-type{
+    font-size: 300%;
+    font-style: italic;
+    margin: 0 0 32px 0;
+}
+
+header img {
+    position: absolute;
+    float: right;
+    bottom: 60px;
+    right: 90px;
+}
+
+aside{
+    width: 25%;
+    background-color: #DDDDDD;
+    border: 1px solid #999999;
+    float: right;
+}
+
+aside p{
+    color: #666666;
+    font-size: 90%;
+    padding-inline: 10px;
+}
+
+aside h3{
+    color: white;
+    background-color: blue;
+    font-size: 120%;
+    text-align: center;
 }
