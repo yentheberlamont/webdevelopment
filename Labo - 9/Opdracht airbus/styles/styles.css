@@ -8,7 +8,7 @@ header{
     height: 200px;
     background-image: url("../images/bgsky3.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 2000px;
     position: relative;
     margin-top: 8px;
 }
@@ -38,6 +38,7 @@ aside{
     background-color: #DDDDDD;
     border: 1px solid #999999;
     float: right;
+    box-sizing: border-box;
 }
 
 aside p{
@@ -57,10 +58,79 @@ main{
     width: 75%;
 }
 
-
-main article:first-of-type{
+main article article:first-of-type{
     text-align: justify;
-    margin-right: 18px;
-    margin-left: 300px;
-    margin-top: -100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: calc(100% - 140px);
+    float: right;
+}
+
+.introduction {
+    overflow: auto;
+}
+
+main article:first-of-type span{
+    color: blue;
+    font-weight: bold;
+    font-style: italic;
+}
+
+main figure{
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+article p {
+    padding-right: 30px;
+    margin: 0;
+}
+
+.gallery{
+    background-color: #999999;
+}
+
+.gallery img {
+    width: 180px;
+    height: 180px;
+}
+
+.foto {
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: white;
+    border: 1px dashed #999999;
+    padding: 10px;
+    display: inline-block;
+}
+
+.foto:last-of-type {
+    margin-bottom: 20px;
+}
+
+section{
+    background-color: #666666;
+    color: white;
+    line-height: 2em;
+}
+
+section div{
+    margin-left: 120px;
+    display: inline-block;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: red;
+}
+
+footer{
+    text-align: center;
+    color: black;
+    background-color: white;
 }
