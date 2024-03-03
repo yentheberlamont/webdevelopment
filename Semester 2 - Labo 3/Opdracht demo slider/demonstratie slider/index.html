@@ -1,0 +1,115 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+	<title>Demonstratie slider</title>
+	<script type="text/javascript" charset="utf-8" src="scripts/code.js"></script>
+	<link rel="stylesheet" href="styles/styles.css"/>
+</head>
+
+
+
+<body>
+<div class="colorpicker">
+	<div class="picker">
+		<div class="slider">
+			<div>
+				<label>
+					0
+					<input type="range" id="redSlider" value="255" min="0" max="255" />
+					255
+				</label>
+			</div>
+			<div>
+				<p id="redPara">Red: </p>
+			</div>
+		</div>
+		<div class="slider">
+			<div>
+				<label>
+					0
+					<input type="range" id="greenSlider" value="0" min="0" max="255" />
+					255
+				</label>
+			</div>
+			<div>
+				<p id="greenPara">Green: </p>
+			</div>
+		</div>
+		<div class="slider">
+			<div>
+				<label>
+					0
+					<input type="range" id="blueSlider" value="0" min="0" max="255" />
+					255
+				</label>
+			</div>
+			<div>
+				<p id="bluePara">Blue: </p>
+			</div>
+		</div>
+	</div>
+
+	<div>
+		<div id="colorField"></div>
+	</div>
+</div>
+<main>
+	<p><strong>2.1.1) Waar wordt de event listener gekoppeld aan de slider?</strong></p>
+	<ul>
+		<li>Antwoord: De eventlistener wordt gekoppeld aan de slider in de setup-functie, in de volgende regels code:</li>
+		<li>sliders[0].addEventListener("change", update);</li>
+		<li>sliders[0].addEventListener("input", update);</li>
+	</ul>
+
+	<p><strong>2.1.2) Waarom moeten we die op twee soorten events koppelen?</strong></p>
+	<ul>
+		<li>Antwoord: Het ene event is voor als de slider verplaatst wordt,
+			terwijl de andere is voor wanneer de slider losgelaten wordt</li>
+	</ul>
+
+	<p><strong>2.1.3) In de CSS file wordt nergens een rode kleur opgegeven, waar wordt dan wel de rode kleur van
+		het blokje ingesteld?</strong></p>
+	<ul>
+		<li>Antwoord: De kleur van het blokje wordt ingesteld in de javascript code in de volgende code:</li>
+		<li>colorDemos[0].style.backgroundColor="red";</li>
+	</ul>
+
+	<p><strong>2.1.4) Waarom schrijven we telkens sliders[0] en colorDemos[0] en niet gewoon sliders of
+		colorDemos?</strong></p>
+	<ul>
+		<li>Antwoord: Er is maar 1 html-element met uit de klasse sliders, en 1 uit de klasse colorDemos. In
+			javascript wordt er toch nog steeds een array geretourneerd, maar er zit maar 1 element in. Door die [0]
+			er bij te zetten, gaan we alsnog dus die specifieke elementen targetten.</li>
+	</ul>
+
+	<p><strong>2.2) Waar vind je de CSS-properties die programmatorisch werden ingesteld, zoals bv. de rode
+		achtergrondkleur van het blokje?</strong></p>
+	<ul>
+		<li>Antwoord: Het blokje krijgt een kleur in de html-code, en voor de kleur te veranderen wordt er gewerkt in
+			de javascript code.</li>
+	</ul>
+
+	<p><strong>3.1) Wat voor soort waarde zit er in die variabelen?</strong></p>
+	<ul>
+		<li>Antwoord: beide velden hebben een array als waarde.</li>
+	</ul>
+
+	<p><strong>3.2) Hoeveel elementen zitten er in elke verzameling?</strong></p>
+	<ul>
+		<li>Antwoord: er zit in elke verzameling 1 element.</li>
+	</ul>
+
+	<p><strong>3.3) Kun je uit de HTML code afleiden waarom er dit precies zoveel zijn?</strong></p>
+	<ul>
+		<li>Antwoord: bij klasses hebben slechts 1 html-element.</li>
+	</ul>
+
+	<p><strong>3.4) Klik op het driehoekje naast de sliders lokale variabele zodat je het eerste
+		element kunt zien. Op welke index positie in de lijst staat dit element?</strong></p>
+	<ul>
+		<li>Antwoord: op indexpositie 0.</li>
+	</ul>
+</main>
+<script src="scripts/code.js"></script>
+</body>
+</html>
