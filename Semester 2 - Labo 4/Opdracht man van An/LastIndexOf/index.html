@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Man van An: lastIndexOf</title>
+</head>
+<body>
+    <h1>
+        Opdracht Man van An: lastIndexOf
+    </h1>
+
+    <p>
+        Javascript code:
+    </p>
+
+    <p>
+        const setup = () => {
+        <br/>
+        const tekst = "De man van An geeft geen hand aan ambetante verwanten";
+        <br/>
+        <br/>
+        let count = 0;
+        <br/>
+        let index = tekst.lastIndexOf("an");
+        <br/>
+        while (index !== -1) {
+        <br/>
+        count++;
+        <br/>
+        index = tekst.lastIndexOf("an", index - 1);
+        <br/>
+        }
+        <br/>
+        console.log("Aantal keren 'an' gevonden (met lastIndexOf):", count);
+        <br/>
+        }
+        <br/>
+        <br/>
+
+        window.addEventListener("load", setup);
+    </p>
+<script src="scripts/code.js"></script>
+</body>
+</html>
