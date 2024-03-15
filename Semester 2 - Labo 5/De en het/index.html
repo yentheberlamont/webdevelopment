@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>De en het</title>
+</head>
+<body>
+    <h1>
+        Opdracht de en het
+    </h1>
+    <p>
+        Javascript code:
+    </p>
+    <p>
+        const setup = () => {<br/>
+        vervang();<br/>
+        }<br/>
+        <br/>
+        const vervang = () => {<br/>
+        <br/>
+        let tekst = "Gisteren zat de jongen op de stoep en at de helft van de appel"<br/>
+        let woorden = tekst.split(' ');<br/>
+        <br/>
+        for(let i = 0; i < woorden.length; i++) {<br/>
+        <br/>
+        let huidigeWoord = woorden[i];<br/>
+        if(huidigeWoord.toLowerCase() === "de") {<br/>
+        woorden[i] = "het";<br/>
+        }<br/>
+        <br/>
+        }<br/>
+        console.log(woorden.join(" "));<br/>
+        }<br/>
+        <br/>
+        window.addEventListener("load", setup);
+    </p>
+<script src="scripts/code.js"></script>
+</body>
+</html>
