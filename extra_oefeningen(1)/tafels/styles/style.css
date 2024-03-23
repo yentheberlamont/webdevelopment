@@ -1,0 +1,22 @@
+.headers {
+    margin-top: 10px;
+    padding-left: 20px;
+    line-height: 30px;
+    width: 300px;
+    color: white;
+    background-color: #182c44;
+    border-top: #182c44 solid 2px;
+}
+
+.bewerkingen {
+    padding-left: 20px;
+    line-height: 30px;
+    width: 300px;
+    border-left: #182c44 solid 2px;
+    border-right: #182c44 solid 2px;
+}
+
+.bewerkingen:nth-child(odd) {
+    background-color: lightgray;
+}
+
