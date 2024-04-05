@@ -1,0 +1,14 @@
+#playField{
+    height: 600px;
+    width: 800px;
+    position: relative;
+}
+
+#score {
+    margin: 0;
+    display: inline;
+}
+
+#target {
+    position: absolute;
+}
