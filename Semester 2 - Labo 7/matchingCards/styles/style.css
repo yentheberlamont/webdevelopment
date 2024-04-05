@@ -6,13 +6,13 @@
 
 .matchImage {
     width: 150px;
-    height: 150px;
+    height: 180px;
 }
 
 .matchFigure {
     margin: 0;
     background-color: blue;
-    height: 150px;
+    height: 180px;
     width: 150px;
 }
 
