@@ -1,0 +1,106 @@
+* {
+    font-family: Helvetica, Verdana, sans-serif;
+}
+
+.container {
+    width: 800px;
+    margin: auto;
+}
+
+h1 {
+    margin-top: -5px;
+    margin-bottom: 1px;
+}
+
+#labelCommando {
+    font-size: 0.7em;
+}
+
+#commando {
+    width: 495px;
+    height: 20px;
+    margin-top: 5px;
+    border: dimgray solid 1px;
+    border-radius: 4px;
+}
+
+span {
+    font-size: 0.55em;
+}
+
+#goButton {
+    background-color: #30a444;
+    color: white;
+    width: 500px;
+    height: 25px;
+    margin-top: 8px;
+    border: none;
+    border-radius: 4px;
+}
+
+#goButton:hover {
+    cursor: pointer;
+}
+
+#history {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.card {
+    padding: 20px 20px 15px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+.card h1 {
+    font-size: 16pt;
+    margin-bottom: 4px;
+}
+
+.card p {
+    font-size: 12pt;
+    margin-bottom: 5px;
+}
+
+.card button {
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+    border: none;
+}
+
+.Google {
+    background-color: #4285f4;
+}
+
+.Google button {
+    background-color: #ea4335;
+}
+
+.Youtube {
+    background-color: #ff0000;
+}
+
+.Youtube button {
+    background-color: #282828;
+}
+
+.Instagram {
+    background-color: #c32aa3;
+}
+
+.Instagram button {
+    background-color: #f46f30;
+}
+
+.Twitter {
+    background-color: #1da1f2;
+}
+
+.Twitter button {
+    background-color: #14171a;
+}
